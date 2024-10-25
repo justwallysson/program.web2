@@ -10,27 +10,25 @@
     <style>
         .box{
          position: fixed;
-            left: 38%;
+            left: 50px;
             top: 50px;
             width: 100px;
             height: 100px;
             background-color: rgb(204, 128, 255);
-            animation: minhaAnimacao 5s 1s normal;
+            animation: minhaAnimacao 5s 1s infinite;
             
-        }
-        .box:hover{
             
-            border: solid 110px rgb(74, 13, 87) ;;
-            transition: 2s;
         }
         @keyframes minhaAnimacao {
             from{
                 left: 10px;
+                
             }
             to{
                 left: 900px;
                 background-color: blue;
-                border-radius: 100px;
+                rotate: 200deg;
+                
             }
         }
     </style>
